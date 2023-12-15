@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx postcss app/css/tailwind.css -o app/public/tailwind.css",
-    "start": "npx live-server app"
+    "start": "npx live-server app --port=3000"
   },
   "author": "",
   "license": "ISC",
